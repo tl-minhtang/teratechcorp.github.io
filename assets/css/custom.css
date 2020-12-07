@@ -1,0 +1,29 @@
+/*==============================================
+ HELPER
+ ===============================================*/
+.transition {
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+/*==============================================
+ Logo Brand
+ ===============================================*/
+
+.logo-brand {
+  font-size: 28px;
+  color: #d6b161;
+}
+
+.logo-brand span {
+  color: #fff;
+}
+
+.l-navbar-wrapper_has-sticky .logo-brand {
+  font-size: 18px
+}
