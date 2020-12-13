@@ -7,10 +7,16 @@
     $('.js-set-language [lang]').on('click', function () {
       setLang($(this).prop('lang'));
       changeLang();
+      showCurrentLang();
     });
 
     changeLang();
+    showCurrentLang();
   });
+
+  function showCurrentLang() {
+    $('#js-current-lang').text($.cookie(COOKIE_NAME));
+  }
 
   function changeLang() {
     $("[data-lang]").each(function (index, ele) {
