@@ -67,19 +67,19 @@
                         <!--mega menu start-->
                         <ul class="menuzord-menu pull-right op-nav c-nav_s-standard">
                             <li class="active">
-                                <a href="#home">Home</a>
+                                <a href="#home" data-lang="nav.text1">Home</a>
                             </li>
                             <li class="">
-                                <a href="#services">Services</a>
+                                <a href="#services" data-lang="nav.text2">Services</a>
                             </li>
                             <li class="">
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#portfolio" data-lang="nav.text3">Portfolio</a>
                             </li>
                             <li class="">
-                                <a href="#workflow">Workflow</a>
+                                <a href="#workflow" data-lang="nav.text4">Workflow</a>
                             </li>
                             <li class="">
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" data-lang="nav.text5">Contact</a>
                             </li>
                             <li class="">
                                 <a href="javascript:void(0)">
@@ -87,10 +87,10 @@
                                     EN
                                 </a>
 
-                                <ul class="dropdown">
-                                    <li><a href="javascript:void(0)">Japanese</a></li>
-                                    <li><a href="javascript:void(0)">English</a></li>
-                                    <li><a href="javascript:void(0)">Vietnamese</a></li>
+                                <ul class="dropdown js-set-language">
+                                    <li><a href="javascript:void(0)" lang="jp">Japanese</a></li>
+                                    <li><a href="javascript:void(0)" lang="en">English</a></li>
+                                    <li><a href="javascript:void(0)" lang="vi">Vietnamese</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -596,7 +596,12 @@
     <script src="assets/vendor/typist/typist.js"></script>
     <script src="assets/vendor/visible/visible.js"></script>
     <script src="assets/vendor/wow/wow.min.js"></script>
+    <script src="assets/vendor/jquery-cookie-master/src/jquery.cookie.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/languages/en.js"></script>
+    <script src="assets/js/languages/vi.js"></script>
+    <script src="assets/js/languages/jp.js"></script>
+    <script src="assets/js/languages/master.js"></script>
 </body>
 
 </html>

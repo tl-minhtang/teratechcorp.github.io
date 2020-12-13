@@ -58,7 +58,7 @@
         /*==============================================
          Onepage nav init
          ===============================================*/
-        $(".op-nav li").on("click", function () {
+        $(".op-nav > li").on("click", function () {
             if ($(".showhide").is(":visible")) {
                 $(".showhide").trigger("click");
             }
@@ -66,7 +66,8 @@
 
         if ($.fn.onePageNav) {
             $(".op-nav").onePageNav({
-                currentClass: "active"
+                currentClass: "active",
+                filter: ':not([lang])'
             });
         }
 
@@ -396,10 +397,6 @@
             prnt.slideToggle();
             e.preventDefault();
             $(prnt).prev().css({ opacity: 1 })
-        });
-
-        $(".career-details-info .apply-btn").on("click", function () {
-
         });
 
 
