@@ -431,7 +431,7 @@
          Carousel init
          ===============================================*/
         if ($.fn.owlCarousel) {
-            $("#clients-1").owlCarousel({
+            $("#js-technologies").owlCarousel({
                 autoPlay: 3000, //Set AutoPlay to 3 seconds
                 items: 6,
                 itemsDesktop: [1199, 3],

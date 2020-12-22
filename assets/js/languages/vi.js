@@ -36,10 +36,10 @@ const LANG_VI = {
   },
   "workflow": {
     "title": "Quy trình làm việc",
-    "desc": "Hợp tác với chúng tôi sẽ tạo cơ hội cho bạn để phát triển và tiếp cận các công nghệ cao, chất lượng tốt và tối ưu nhất.\nChúng tôi ưu tiên việc hợp tác và phát triển trong thời gian trung - dài. Với việc MTG hàng tuần, mang lại sự tối ưu và tốc độ phát triển tốt với nhiệm vụ được đề ra.",
-    "step1": "Liên hệ với chúng tôi",
-    "step2": "Trao đổi trực tiếp",
-    "step3": "Ước tính và ký hợp đồng",
+    "desc": "Chúng tôi ưu tiên việc hợp tác và phát triển trong thời gian trung - dài. Với việc MTG hàng tuần, mang lại sự tối ưu và tốc độ phát triển tốt với nhiệm vụ được đề ra.",
+    "step1": "Trao đổi trực tiếp - Lấy requirement từ Khách Hàng",
+    "step2": "Ước tính thời gian, triển khai Team và lên kế hoạch.",
+    "step3": "Triển khai team với đội ngũ Dev - BrSE - PM - Comtor - Tester bằng mô hình Agile Scrum.",
     "step4": "Phát triển sản phẩm",
     "step5": "Release sản phẩm",
   },
@@ -48,6 +48,12 @@ const LANG_VI = {
   },
   "contact": {
     "title": "Liên Hệ",
-    "desc": "Vui lòng liên hệ với chúng tôi về ý kiến, hoặc tư vấn của bạn.\n Chúng tôi sẽ liên hệ với bạn sau khi xác nhận nội dung.",
+    "desc": "Vui lòng liên hệ với chúng tôi về ý kiến, hoặc mong muốn của bạn.\n Chúng tôi sẽ liên hệ sau khi xác nhận nội dung.",
+    "text_location": "Trụ sở chính",
+    "headquarter": "20/H05/K408 Ton Dan, TP. Da Nang",
+    "text_call_us": "Gọi cho chúng tôi",
+    "phone_number": "Bất kỳ lúc nào. Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
+    "text_email": "Email",
+    "email_address": "lan.le@terabyte-labo.com",
   }
 };
