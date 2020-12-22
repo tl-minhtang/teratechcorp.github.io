@@ -31,8 +31,8 @@
       const text = i18n.reduce(function (object, property) {
         return object[property];
       }, currentLang());
-      console.log(currentLang(), text)
-      if (text) $this.text(text)
+
+      if (text) $this.html(text.replace(/\n/g, "<br />"))
     })
   }
 

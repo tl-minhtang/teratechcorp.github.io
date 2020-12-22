@@ -27,3 +27,36 @@
 .l-navbar-wrapper_has-sticky .logo-brand {
   font-size: 18px
 }
+
+/*==============================================
+ Services
+ ===============================================*/
+
+.feature-box-grid {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.feature-box-grid > div {
+  border: 1px solid #fff;
+  outline: 1px solid #f2f2f2;
+}
+
+.feature-box-grid .featured-item.border-box {
+  border: unset;
+  height: 100%;
+}
+
+/*==============================================
+ Technologies
+ ===============================================*/
+
+.technologies-icon .item img {
+  display: block;
+  width: auto;
+  height: 120px;
+}
+
