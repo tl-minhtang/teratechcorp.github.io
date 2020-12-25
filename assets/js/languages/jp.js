@@ -9,15 +9,15 @@ const LANG_JP = {
     "title": "サービス",
     "desc": "Terabyte-laboは、Webアプリケーション、マイクロサービス、Eコマース、チャットボット、およびモバイルアプリケーションに特化したテクノロジーの研究、協力、および開発センターです。",
     "web_app": {
-      "title": "Api / Web App",
+      "title": "API / WEB APP",
       "desc": "Ruby on Rails、Nodejs、Laravel、..を使用してWebアプリケーションを構築します。フロントエンド、バックエンドからサーバーへの展開を処理できます。",
     },
     "mobile_app": {
-      "title": "Mobile App",
+      "title": "モバイルアプリ",
       "desc": "Swift、Flutter、React Nativeなどを使用して、経験豊富な研究者のチームでモバイルアプリを構築します。",
     },
     "ecommerce": {
-      "title": "Ecommerce",
+      "title": "Eコマース",
       "desc": "長年の経験を持つチームにより、所有者とユーザーの両方に信頼性、品質、幸福をもたらす製品を保証できます。",
     },
     "scrapping": {
@@ -25,7 +25,7 @@ const LANG_JP = {
       "desc": "Terabye-labo is also highly experience with Web Scraper/Web Crawler, we are able to apply this technologies to also most all of the currently existing website.",
     },
     "chatbot": {
-      "title": "Chatbot",
+      "title": "チャットボット",
       "desc": "LINE、Instagram、Facebook Messenger APIを使用して、チャットボットを使用して顧客との通信を最適化することをお勧めします。",
     },
     "tool": {
@@ -54,5 +54,14 @@ const LANG_JP = {
     "phone_number": "Any time. We are open 24/7 \n (+84) 917 597 990",
     "text_email": "メール",
     "email_address": "lan.le@terabyte-labo.com",
+  },
+  "form": {
+    "contact": {
+      "name": "お名前（漢字",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "comment": "お問い合わせ内容",
+      "send_mail": "送信する"
+    }
   }
 };

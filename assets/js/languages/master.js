@@ -20,11 +20,24 @@
 
   function changeLang() {
     $("[data-lang]").each(function (index, ele) {
-      loadLang();
+      loadLangText();
+      loadLangHolder();
     })
   }
 
-  function loadLang() {
+  function loadLangText() {
+    $("[data-lang-holder]").each(function (index, ele) {
+      const $this = $(ele)
+      const i18n = $this.data('lang-holder').split('.')
+      const text = i18n.reduce(function (object, property) {
+        return object[property];
+      }, currentLang());
+
+      if (text) $this.prop('placeholder', text)
+    })
+  }
+
+  function loadLangHolder() {
     $("[data-lang]").each(function (index, ele) {
       const $this = $(ele)
       const i18n = $this.data('lang').split('.')
@@ -41,12 +54,10 @@
     switch (lang) {
       case 'vi':
         return LANG_VI;
-        break;
       case 'en':
         return LANG_EN;
       default:
         return LANG_JP
-        break;
     }
   }
 

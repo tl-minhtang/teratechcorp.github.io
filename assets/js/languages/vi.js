@@ -54,5 +54,14 @@ const LANG_VI = {
     "phone_number": "Bất kỳ lúc nào. Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
     "text_email": "Email",
     "email_address": "lan.le@terabyte-labo.com",
+  },
+  "form": {
+    "contact": {
+      "name": "Tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "comment": "Nội dung",
+      "send_mail": "Gởi tin nhắn"
+    }
   }
 };

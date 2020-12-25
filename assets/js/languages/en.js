@@ -54,5 +54,14 @@ const LANG_EN = {
     "phone_number": "Any time. We are open 24/7 \n (+84) 917 597 990",
     "text_email": "Email",
     "email_address": "lan.le@terabyte-labo.com",
+  },
+  "form": {
+    "contact": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "comment": "Comment",
+      "send_mail": "Send message"
+    }
   }
 };
