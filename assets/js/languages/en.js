@@ -2,52 +2,66 @@ const LANG_EN = {
   "nav": {
     "text1": "Home",
     "text2": "Services",
-    "text3": "Portfolio",
-    "text4": "Workflow",
+    "text4": "Workflows",
     "text5": "Contact",
   },
   "service": {
-    "title": "OUR SERVICES",
-    "desc": "Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.",
+    "title": "Services",
+    "desc": "Terabyte is an IT solution company that has many in-depth experiences in technologies specialized in Web Application, Microservice, Ecommerce, Chatbot and Mobile application.",
     "web_app": {
       "title": "Api / Web App",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Using Ruby on Rails, Nodejs, Laravel… to build Web applications, we are able to undertake any projects from Front-end, Back-end to Web service.",
     },
     "mobile_app": {
       "title": "Mobile App",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Using Swift, Flutter, React Native… to build applications on mobile with our experienced team.",
     },
     "ecommerce": {
       "title": "Ecommerce",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "With our experienced workforce, we can ensure that our products will deliver reliability - quality - joy to both owners and users.",
     },
     "scrapping": {
       "title": "Scrapping",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Terabye-labo is also highly experience with Web Scraper/Web Crawler, we are able to apply this technologies to also most all of the currently existing website.",
     },
     "chatbot": {
       "title": "Chatbot",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Using API from LINE, Instagram and Facebook Messenger, we can promote using Chatbot to maximized our contacts with the customers.",
     },
     "tool": {
       "title": "Tools",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Terabyte-labo also specializes in creating, designing and developing new functions for your existing systems. We prioritize speedy development with exceptional quality at a reasonable cost.",
     },
   },
   "workflow": {
-    "title": "WORK FLOW",
-    "desc": "Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam pellente. Awesome sliders give you the opportunity to showcase your content.",
-    "step1": "MEGA MENU",
-    "step2": "UNLIMITED PORTFOLIO GRID",
-    "step3": "HUGE SHORTCODE",
-    "step4": "MEGA MENU",
-    "step5": "UNLIMITED PORTFOLIO GRID",
+    "title": "Workflows",
+    "desc": "By working with us, you are ensured to be provided with high-end and high-quality technologies with the best price offer possible.\nWe pride ourself in mid to long term collaboration and development. Combining with weekly meeting, we are able to bring quick and quality progression with the task at hand.",
+    "step1": "Understanding and assessing customer's requests.",
+    "step2": "Workload and time assessment.",
+    "step3": "Deploying development team using Agile Scrum model.",
+    "step4": "Product development.",
+    "step5": "Releasing the final product.",
   },
   "technology": {
-    "title": "AVAILABLE TECHNOLOGIES",
+    "title": "Available technologies",
   },
   "contact": {
     "title": "Contact",
-    "desc": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.Nam libero tempore",
+    "desc": "For inquiries, please contact us through emails or calls. \nWe will reply as soon as possible.",
+    "text_location": "Headquarters",
+    "headquarter": "20/H05/K408 \nTon Dan Street, Da Nang City",
+    "text_call_us": "Call us",
+    "phone_number": "Any time. We are open 24/7 \n (+84) 917 597 990",
+    "text_email": "Email",
+    "email_address": "lan.le@terabyte-labo.com",
+  },
+  "form": {
+    "contact": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "comment": "Comment",
+      "send_mail": "Send message"
+    }
   }
 };
