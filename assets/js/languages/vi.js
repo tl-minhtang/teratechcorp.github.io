@@ -2,7 +2,6 @@ const LANG_VI = {
   "nav": {
     "text1": "Trang chủ",
     "text2": "Dịch vụ",
-    "text3": "Dự án",
     "text4": "Quy trình làm việc",
     "text5": "Liên hệ",
   },
@@ -50,7 +49,7 @@ const LANG_VI = {
     "title": "Liên Hệ",
     "desc": "Vui lòng liên hệ với chúng tôi về ý kiến, hoặc mong muốn của bạn.\n Chúng tôi sẽ liên hệ sau khi xác nhận nội dung.",
     "text_location": "Trụ sở chính",
-    "headquarter": "20/H05/K408 Ton Dan, TP. Da Nang",
+    "headquarter": "20/H05/K408 \nTon Dan, TP. Da Nang",
     "text_call_us": "Gọi cho chúng tôi",
     "phone_number": "Bất kỳ lúc nào. Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
     "text_email": "Email",
