@@ -15,7 +15,6 @@
   });
 
   function showCurrentLang() {
-    console.log($.cookie(COOKIE_NAME))
     $('#js-current-lang').text($.cookie(COOKIE_NAME));
   }
 
