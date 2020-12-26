@@ -10,11 +10,12 @@
       showCurrentLang();
     });
 
-    changeLang();
     showCurrentLang();
+    changeLang();
   });
 
   function showCurrentLang() {
+    console.log($.cookie(COOKIE_NAME))
     $('#js-current-lang').text($.cookie(COOKIE_NAME));
   }
 
@@ -52,9 +53,9 @@
   function currentLang() {
     const lang = $.cookie(COOKIE_NAME)
     switch (lang) {
-      case 'vi':
+      case 'Tiếng Việt':
         return LANG_VI;
-      case 'en':
+      case 'English':
         return LANG_EN;
       default:
         return LANG_JP
