@@ -11,6 +11,14 @@
   padding: 0 !important;
 }
 
+.mt-1 {
+  margin-top: 1em !important;
+}
+
+.mb-5 {
+  margin-bottom: 5em !important;
+}
+
 /*==============================================
  Parallax
  ===============================================*/
@@ -61,9 +69,20 @@
  Technologies
  ===============================================*/
 
-.technologies-icon .item img {
+.technologies-icon .clients li img {
   display: block;
-  width: auto;
-  height: 120px;
+  width: 50%;
+  height: auto;
+  transition: all ease-in .2s;
+  -moz-transition: all ease-in .2s;
+  -webkit-animation: all ease-in .2s;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
+.technologies-icon .clients li:hover img {
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  -moz-filter: none;
+  filter: none;
+}
