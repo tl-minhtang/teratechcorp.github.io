@@ -534,7 +534,7 @@
         /*==============================================
          Back to top init
          ===============================================*/
-        $body.append("<a data-scroll class='lift-off js-lift-off lift-off_hide' href='#'><i class='fa fa-angle-up'></i></a>");
+        $body.append("<a data-scroll class='lift-off js-lift-off lift-off_hide' href='javascript:void(0)'><i class='fa fa-angle-up'></i></a>");
 
         var $liftOff = $(".js-lift-off");
         $window.on("scroll", function () {
