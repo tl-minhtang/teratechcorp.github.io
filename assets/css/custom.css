@@ -7,6 +7,10 @@
   -moz-transition: all ease-in-out .5s;
 }
 
+.hidden {
+  display: none
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -17,13 +21,6 @@
 
 .mb-5 {
   margin-bottom: 5em !important;
-}
-
-/*==============================================
- Parallax
- ===============================================*/
-.parallax-9 {
-  background-position: 50% 0;
 }
 
 /*==============================================

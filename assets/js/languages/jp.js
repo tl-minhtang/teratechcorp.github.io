@@ -5,6 +5,7 @@ const LANG_JP = {
     "text4": "ワークフロー",
     "text5": "連絡先",
   },
+  "slogan": "私たちはいつもあなたと一緒です。",
   "service": {
     "title": "サービス",
     "desc": "Terabyte-laboは、Webアプリケーション、マイクロサービス、Eコマース、チャットボット、およびモバイルアプリケーションに特化したテクノロジーの研究、協力、および開発センターです。",
@@ -51,7 +52,7 @@ const LANG_JP = {
     "text_location": "本社",
     "headquarter": "20 / H05 / K408\nトンダン、ダナン",
     "text_call_us": "電話番号",
-    "phone_number": "どんなときも。\n 24時間年中無休で営業しています。\n (+84) 917 597 990",
+    "phone_number": "どんなときも \n 24時間年中無休で営業しています。 \n (+84) 917 597 990",
     "text_email": "メール",
     "email_address": "lan.le@terabyte-labo.com",
   },

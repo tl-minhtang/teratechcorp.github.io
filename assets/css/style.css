@@ -3136,6 +3136,10 @@ body {
     z-index: 6000;
 }
 
+.hero-text * {
+    color: #fff
+}
+
 .hero-text h1 {
     margin-bottom: 10px;
 }
@@ -5907,6 +5911,17 @@ address p {
 /*--------------------------------------
     parallax images
 --------------------------------------*/
+.parallax-1 {
+    background-image: url("../img/parallax/1.webp") !important;
+}
+
+.parallax-2 {
+    background-image: url("../img/parallax/2.webp") !important;
+}
+.parallax-3 {
+    background-image: url("../img/parallax/3.webp") !important;
+}
+
 .parallax-4 {
     background-image: url("../img/parallax/4.jpg") !important;
 }

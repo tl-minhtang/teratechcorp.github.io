@@ -5,6 +5,7 @@ const LANG_VI = {
     "text4": "Quy trình làm việc",
     "text5": "Liên hệ",
   },
+  "slogan": "Chúng tôi luôn đồng hành cùng bạn",
   "service": {
     "title": "Dịch vụ",
     "desc": "Terabyte-labo là trung tâm nghiên cứu, hợp tác và phát triển các công nghệ chuyên về Công Nghệ Web Application, microservice, ecommerce, Chatbot và ứng dụng trên điện thoại",
@@ -51,7 +52,7 @@ const LANG_VI = {
     "text_location": "Trụ sở chính",
     "headquarter": "20/H05/K408 \nTon Dan, TP. Da Nang",
     "text_call_us": "Gọi cho chúng tôi",
-    "phone_number": "Bất kỳ lúc nào. Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
+    "phone_number": "Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
     "text_email": "Email",
     "email_address": "lan.le@terabyte-labo.com",
   },

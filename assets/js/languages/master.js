@@ -25,7 +25,7 @@
     })
   }
 
-  function loadLangText() {
+  function loadLangHolder() {
     $("[data-lang-holder]").each(function (index, ele) {
       const $this = $(ele)
       const i18n = $this.data('lang-holder').split('.')
@@ -37,14 +37,13 @@
     })
   }
 
-  function loadLangHolder() {
+  function loadLangText() {
     $("[data-lang]").each(function (index, ele) {
       const $this = $(ele)
       const i18n = $this.data('lang').split('.')
       const text = i18n.reduce(function (object, property) {
         return object[property];
       }, currentLang());
-
       if (text) $this.html(text.replace(/\n/g, "<br />"))
     })
   }
