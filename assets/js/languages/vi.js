@@ -5,6 +5,7 @@ const LANG_VI = {
     "text4": "Quy trình làm việc",
     "text5": "Liên hệ",
   },
+  "slogan": "Chúng tôi luôn đồng hành cùng bạn",
   "service": {
     "title": "Dịch vụ",
     "desc": "Terabyte-labo là trung tâm nghiên cứu, hợp tác và phát triển các công nghệ chuyên về Công Nghệ Web Application, microservice, ecommerce, Chatbot và ứng dụng trên điện thoại",

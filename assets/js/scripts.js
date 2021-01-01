@@ -7,6 +7,11 @@
     $document = $(document);
     $body = $("body");
 
+    // Create prototype `sample` for array
+    // [1,2,3,4].sample()
+    Array.prototype.sample = function () {
+        return this[Math.floor(Math.random() * this.length)];
+    }
 
     /*==============================================
      Pre loader init
@@ -16,6 +21,16 @@
             $(".tb-preloader-wave").fadeOut();
             $("#tb-preloader").delay(200).fadeOut("slow").remove();
         });
+    });
+
+
+    /*==============================================
+     Random parallax
+     ===============================================*/
+    $window.on("load", function () {
+        let bgRandom = [1, 2, 3].sample()
+        let bgDefault = "parallax-1";
+        $("#fullscreen-banner").removeClass(bgDefault).addClass('parallax-' + bgRandom);
     });
 
     /*==============================================

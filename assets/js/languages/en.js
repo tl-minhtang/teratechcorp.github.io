@@ -5,6 +5,7 @@ const LANG_EN = {
     "text4": "Workflows",
     "text5": "Contact",
   },
+  "slogan": "We are always companion with you",
   "service": {
     "title": "Services",
     "desc": "Terabyte is an IT solution company that has many in-depth experiences in technologies specialized in Web Application, Microservice, Ecommerce, Chatbot and Mobile application.",
