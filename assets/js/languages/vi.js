@@ -23,7 +23,7 @@ const LANG_VI = {
     },
     "scrapping": {
       "title": "Scrapping",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Với nhiều năm kinh nghiệm về Web Scraper/Web Crawler, chúng tôi có thể thực hiện với hầu hết các trang Web hiện nay.",
     },
     "chatbot": {
       "title": "Chatbot",
@@ -31,7 +31,7 @@ const LANG_VI = {
     },
     "tool": {
       "title": "Tools",
-      "desc": "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.",
+      "desc": "Xây dựng và phát triển các chức năng thứ 3 cho hệ thống của bạn. Chúng tôi ưu tiên việc phát triển nhanh, chất lượng tốt và chi phí thấp.",
     },
   },
   "workflow": {
