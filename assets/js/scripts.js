@@ -23,7 +23,6 @@
         });
     });
 
-
     /*==============================================
      Random parallax
      ===============================================*/
@@ -126,56 +125,56 @@
         /*==============================================
          Flex slider init
          ===============================================*/
-        $window.load(function () {
-            $(".portfolio-slider").flexslider({
-                animation: "slide",
-                direction: "vertical",
-                slideshowSpeed: 3000,
-                start: function () {
-                    imagesLoaded($(".portfolio"), function () {
-                        setTimeout(function () {
-                            $(".portfolio-filter li:eq(0) a").trigger("click");
-                        }, 500);
-                    });
-                }
-            });
-        });
+        // $window.load(function () {
+        //     $(".portfolio-slider").flexslider({
+        //         animation: "slide",
+        //         direction: "vertical",
+        //         slideshowSpeed: 3000,
+        //         start: function () {
+        //             imagesLoaded($(".portfolio"), function () {
+        //                 setTimeout(function () {
+        //                     $(".portfolio-filter li:eq(0) a").trigger("click");
+        //                 }, 500);
+        //             });
+        //         }
+        //     });
+        // });
 
-        $window.load(function () {
-            $(".portfolio-slider-alt").flexslider({
-                animation: "slide",
-                direction: "horizontal",
-                slideshowSpeed: 4000,
-                start: function () {
-                    imagesLoaded($(".portfolio"), function () {
-                        setTimeout(function () {
-                            $(".portfolio-filter li:eq(0) a").trigger("click");
-                        }, 500);
-                    });
-                }
-            });
-        });
+        // $window.load(function () {
+        //     $(".portfolio-slider-alt").flexslider({
+        //         animation: "slide",
+        //         direction: "horizontal",
+        //         slideshowSpeed: 4000,
+        //         start: function () {
+        //             imagesLoaded($(".portfolio"), function () {
+        //                 setTimeout(function () {
+        //                     $(".portfolio-filter li:eq(0) a").trigger("click");
+        //                 }, 500);
+        //             });
+        //         }
+        //     });
+        // });
 
-        $window.load(function () {
-            $(".post-slider-thumb").flexslider({
-                animation: "slide",
-                controlNav: "thumbnails"
-            });
-        });
+        // $window.load(function () {
+        //     $(".post-slider-thumb").flexslider({
+        //         animation: "slide",
+        //         controlNav: "thumbnails"
+        //     });
+        // });
 
-        $window.load(function () {
-            $(".post-slider").flexslider({
-                animation: "slide"
-                //slideshow: false
-            });
-        });
+        // $window.load(function () {
+        //     $(".post-slider").flexslider({
+        //         animation: "slide"
+        //         //slideshow: false
+        //     });
+        // });
 
-        $window.load(function () {
-            $(".news-slider").flexslider({
-                animation: "slide",
-                slideshowSpeed: 3000
-            });
-        });
+        // $window.load(function () {
+        //     $(".news-slider").flexslider({
+        //         animation: "slide",
+        //         slideshowSpeed: 3000
+        //     });
+        // });
 
 
         /*==============================================
@@ -266,46 +265,46 @@
         /*==============================================
          Portfolio item slider init
          ===============================================*/
-        $(".portfolio-slider, .portfolio-slider-alt").each(function () { // the containers for all your galleries
-            var _items = $(this).find("li > a");
-            var items = [];
-            for (var i = 0; i < _items.length; i++) {
-                items.push({ src: $(_items[i]).attr("href"), title: $(_items[i]).attr("title") });
-            }
-            $(this).parent().find(".action-btn").magnificPopup({
-                items: items,
-                type: "image",
-                gallery: {
-                    enabled: true
-                }
-            });
-            $(this).parent().find(".portfolio-description").magnificPopup({
-                items: items,
-                type: "image",
-                gallery: {
-                    enabled: true
-                }
-            });
-        });
+        // $(".portfolio-slider, .portfolio-slider-alt").each(function () { // the containers for all your galleries
+        //     var _items = $(this).find("li > a");
+        //     var items = [];
+        //     for (var i = 0; i < _items.length; i++) {
+        //         items.push({ src: $(_items[i]).attr("href"), title: $(_items[i]).attr("title") });
+        //     }
+        //     $(this).parent().find(".action-btn").magnificPopup({
+        //         items: items,
+        //         type: "image",
+        //         gallery: {
+        //             enabled: true
+        //         }
+        //     });
+        //     $(this).parent().find(".portfolio-description").magnificPopup({
+        //         items: items,
+        //         type: "image",
+        //         gallery: {
+        //             enabled: true
+        //         }
+        //     });
+        // });
 
 
         /*==============================================
          Portfolio popup gallery init
          ===============================================*/
-        $(".portfolio-gallery").each(function () { // the containers for all your galleries
-            $(this).find(".popup-gallery").magnificPopup({
-                type: "image",
-                gallery: {
-                    enabled: true
-                }
-            });
-            $(this).find(".popup-gallery2").magnificPopup({
-                type: "image",
-                gallery: {
-                    enabled: true
-                }
-            });
-        });
+        // $(".portfolio-gallery").each(function () { // the containers for all your galleries
+        //     $(this).find(".popup-gallery").magnificPopup({
+        //         type: "image",
+        //         gallery: {
+        //             enabled: true
+        //         }
+        //     });
+        //     $(this).find(".popup-gallery2").magnificPopup({
+        //         type: "image",
+        //         gallery: {
+        //             enabled: true
+        //         }
+        //     });
+        // });
 
 
         /*==============================================
@@ -339,19 +338,19 @@
         /*==============================================
          Magnific popup init
          ===============================================*/
-        $(".popup-link").magnificPopup({
-            type: "image"
-            // other options
-        });
+        // $(".popup-link").magnificPopup({
+        //     type: "image"
+        //     // other options
+        // });
 
-        $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
-            disableOn: 700,
-            type: "iframe",
-            mainClass: "mfp-fade",
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
+        // $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
+        //     disableOn: 700,
+        //     type: "iframe",
+        //     mainClass: "mfp-fade",
+        //     removalDelay: 160,
+        //     preloader: false,
+        //     fixedContentPos: false
+        // });
 
 
         /*==============================================
@@ -535,7 +534,7 @@
         /*==============================================
          Back to top init
          ===============================================*/
-        $body.append("<a data-scroll class='lift-off js-lift-off lift-off_hide' href='#'><i class='fa fa-angle-up'></i></a>");
+        $body.append("<a data-scroll class='lift-off js-lift-off lift-off_hide' href='javascript:void(0)'><i class='fa fa-angle-up'></i></a>");
 
         var $liftOff = $(".js-lift-off");
         $window.on("scroll", function () {
