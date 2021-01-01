@@ -52,7 +52,7 @@ const LANG_VI = {
     "text_location": "Trụ sở chính",
     "headquarter": "20/H05/K408 \nTon Dan, TP. Da Nang",
     "text_call_us": "Gọi cho chúng tôi",
-    "phone_number": "Bất kỳ lúc nào. Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
+    "phone_number": "Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
     "text_email": "Email",
     "email_address": "lan.le@terabyte-labo.com",
   },

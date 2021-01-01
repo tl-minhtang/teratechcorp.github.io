@@ -15,6 +15,14 @@
   padding: 0 !important;
 }
 
+.mb-5 {
+  margin-bottom: 5em !important;
+}
+
+.mt-1 {
+  margin-top: 1em !important;
+}
+
 /*==============================================
  Logo Brand
  ===============================================*/
@@ -58,9 +66,15 @@
  Technologies
  ===============================================*/
 
-.technologies-icon .item img {
+.technologies-icon .clients li img {
   display: block;
-  width: auto;
-  height: 120px;
+  width: 50%;
+  height: auto;
+  transition: all ease-in .2s;
+  -moz-transition: all ease-in .2s;
+  -webkit-animation: all ease-in .2s;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
