@@ -5,6 +5,8 @@
   # Defaults are shown below.
   # You can also refer to `critical`’s documentation: https://github.com/addyosmani/critical.
   [plugins.inputs]
+    inline: true
+
     # Whether to minify the generated critical-path CSS.
     minify = true
 
@@ -18,33 +20,3 @@
     [[plugins.inputs.dimensions]]
       width = 1920
       height = 1080
-
-# Build sitemap
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  buildDir = "/"
-
-
-# Auto submite sitemap
-[build]
-  publish = "/"
-
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-
-	[plugins.inputs]
-
-	# The base url of your site (optional, default = main URL set in Netlify)
-	baseUrl = "https://terabyte-labo.com/"
-
-	# Path to the sitemap URL (optional, default = /sitemap.xml)
-	sitemapPath = "/sitemap.xml"
-
-	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
-	providers = [
-		"google",
-		"bing",
-		"yandex"
-	]
