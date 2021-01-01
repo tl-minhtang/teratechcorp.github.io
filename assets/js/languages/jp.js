@@ -5,7 +5,7 @@ const LANG_JP = {
     "text4": "ワークフロー",
     "text5": "連絡先",
   },
-  "slogan": "Chúng tôi luôn đồng hành cùng bạn",
+  "slogan": "私たちはいつもあなたと一緒です。",
   "service": {
     "title": "サービス",
     "desc": "Terabyte-laboは、Webアプリケーション、マイクロサービス、Eコマース、チャットボット、およびモバイルアプリケーションに特化したテクノロジーの研究、協力、および開発センターです。",

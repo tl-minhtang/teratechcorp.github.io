@@ -25,7 +25,7 @@
     })
   }
 
-  function loadLangText() {
+  function loadLangHolder() {
     $("[data-lang-holder]").each(function (index, ele) {
       const $this = $(ele)
       const i18n = $this.data('lang-holder').split('.')
@@ -37,14 +37,14 @@
     })
   }
 
-  function loadLangHolder() {
+  function loadLangText() {
     $("[data-lang]").each(function (index, ele) {
       const $this = $(ele)
       const i18n = $this.data('lang').split('.')
       const text = i18n.reduce(function (object, property) {
         return object[property];
       }, currentLang());
-
+      debugger
       if (text) $this.html(text.replace(/\n/g, "<br />"))
     })
   }
@@ -52,9 +52,9 @@
   function currentLang() {
     const lang = $.cookie(COOKIE_NAME)
     switch (lang) {
-      case 'vi':
+      case 'Tiếng Việt':
         return LANG_VI;
-      case 'en':
+      case 'English':
         return LANG_EN;
       default:
         return LANG_JP
