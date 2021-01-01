@@ -44,7 +44,6 @@
       const text = i18n.reduce(function (object, property) {
         return object[property];
       }, currentLang());
-      debugger
       if (text) $this.html(text.replace(/\n/g, "<br />"))
     })
   }
