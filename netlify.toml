@@ -5,8 +5,6 @@
   # Defaults are shown below.
   # You can also refer to `critical`’s documentation: https://github.com/addyosmani/critical.
   [plugins.inputs]
-    inline: true
-
     # Whether to minify the generated critical-path CSS.
     minify = true
 
