@@ -10,8 +10,8 @@
       showCurrentLang();
     });
 
-    changeLang();
     showCurrentLang();
+    changeLang();
   });
 
   function showCurrentLang() {
