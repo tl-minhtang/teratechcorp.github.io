@@ -23,7 +23,7 @@ const LANG_JP = {
     },
     "scrapping": {
       "title": "スクレイピング",
-      "desc": "スクレイピング：Web Scraper / Web Crawlerでの長年の経験により、現在ほとんどのWebサイトで実施できます。",
+      "desc": "Web Scraper / Web Crawlerでの長年の経験により、現在ほとんどのWebサイトで実施できます。",
     },
     "chatbot": {
       "title": "チャットボット",
@@ -31,7 +31,7 @@ const LANG_JP = {
     },
     "tool": {
       "title": "ツール",
-      "desc": "ツール：システムの3番目の機能を構築および開発します。 迅速な開発、高品質、低コストを優先します。",
+      "desc": "システムの3番目の機能を構築および開発します。 迅速な開発、高品質、低コストを優先します。",
     },
   },
   "workflow": {
