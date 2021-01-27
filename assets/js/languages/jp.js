@@ -50,11 +50,11 @@ const LANG_JP = {
     "title": "連絡先",
     "desc": "コメント、アドバイス、お問い合わせはお問い合わせください。\n内容確認後、お早めにご連絡いたします。",
     "text_location": "本社",
-    "headquarter": "20 / H05 / K408\nトンダン、ダナン",
+    "headquarter": "ダナン市、ベトナム",
     "text_call_us": "電話番号",
-    "phone_number": "どんなときも \n 24時間年中無休で営業しています。 \n (+84) 917 597 990",
+    "phone_number": "どんなときも \n 24時間年中無休で営業しています。 \n 07 040 155 316",
     "text_email": "メール",
-    "email_address": "lan.le@terabyte-labo.com",
+    "email_address": "oanh.van@terabyte-labo.com",
   },
   "form": {
     "contact": {
