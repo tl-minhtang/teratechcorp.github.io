@@ -50,11 +50,11 @@ const LANG_VI = {
     "title": "Liên Hệ",
     "desc": "Vui lòng liên hệ với chúng tôi về ý kiến, hoặc mong muốn của bạn.\n Chúng tôi sẽ liên hệ sau khi xác nhận nội dung.",
     "text_location": "Trụ sở chính",
-    "headquarter": "20/H05/K408 \nTon Dan, TP. Da Nang",
+    "headquarter": "Đà Nẵng, Việt Nam",
     "text_call_us": "Gọi cho chúng tôi",
-    "phone_number": "Chúng tôi làm việc 24/7 \n (+84) 917 597 990",
+    "phone_number": "Chúng tôi làm việc 24/7 \n 07 040 155 316",
     "text_email": "Email",
-    "email_address": "lan.le@terabyte-labo.com",
+    "email_address": "oanh.van@terabyte-labo.com",
   },
   "form": {
     "contact": {
