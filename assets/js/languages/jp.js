@@ -8,7 +8,7 @@ const LANG_JP = {
   "slogan": "私たちはいつもあなたと一緒です。",
   "service": {
     "title": "サービス",
-    "desc": "Terabyte-laboは、Webアプリケーション、マイクロサービス、Eコマース、チャットボット、およびモバイルアプリケーションに特化したテクノロジーの研究、協力、および開発センターです。",
+    "desc": "Teratechは、Webアプリケーション、マイクロサービス、Eコマース、チャットボット、およびモバイルアプリケーションに特化したテクノロジーの研究、協力、および開発センターです。",
     "web_app": {
       "title": "API / WEB APP",
       "desc": "Ruby on Rails、Nodejs、Laravelなどを使用してWebアプリケーションを構築します。フロントエンド、バックエンドからサーバーへの展開を処理できます。",
@@ -54,7 +54,7 @@ const LANG_JP = {
     "text_call_us": "電話番号",
     "phone_number": "どんなときも \n 24時間年中無休で営業しています。 \n 07 040 155 316",
     "text_email": "メール",
-    "email_address": "oanh.van@terabyte-labo.com",
+    "email_address": "sale@teratechcorp.com ",
   },
   "form": {
     "contact": {

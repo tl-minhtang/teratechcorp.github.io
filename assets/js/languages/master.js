@@ -1,7 +1,7 @@
 ; (function () {
   "use strict";
 
-  const COOKIE_NAME = 'terabyte-labo-master-lang';
+  const COOKIE_NAME = 'master-lang';
 
   $(function () {
     $('.js-set-language [lang]').on('click', function () {
