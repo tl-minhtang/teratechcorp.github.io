@@ -56,7 +56,7 @@
   flex-wrap: wrap;
 }
 
-.feature-box-grid > div {
+.feature-box-grid>div {
   border: 1px solid #fff;
   outline: 1px solid #f2f2f2;
 }
@@ -77,13 +77,15 @@
   transition: all ease-in .2s;
   -moz-transition: all ease-in .2s;
   -webkit-animation: all ease-in .2s;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
 .technologies-icon .clients li:hover img {
-  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  -webkit-filter: none;
+  /* Safari 6.0 - 9.0 */
   -moz-filter: none;
   filter: none;
 }

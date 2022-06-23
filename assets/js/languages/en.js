@@ -23,7 +23,7 @@ const LANG_EN = {
     },
     "scrapping": {
       "title": "Scrapping",
-      "desc": "Terabye-labo is also highly experience with Web Scraper/Web Crawler, we are able to apply this technologies to also most all of the currently existing website.",
+      "desc": "Teratech is also highly experience with Web Scraper/Web Crawler, we are able to apply this technologies to also most all of the currently existing website.",
     },
     "chatbot": {
       "title": "Chatbot",
@@ -31,7 +31,7 @@ const LANG_EN = {
     },
     "tool": {
       "title": "Tools",
-      "desc": "Terabyte-labo also specializes in creating, designing and developing new functions for your existing systems. We prioritize speedy development with exceptional quality at a reasonable cost.",
+      "desc": "Teratech also specializes in creating, designing and developing new functions for your existing systems. We prioritize speedy development with exceptional quality at a reasonable cost.",
     },
   },
   "workflow": {
@@ -54,7 +54,7 @@ const LANG_EN = {
     "text_call_us": "Call us",
     "phone_number": "Any time. We are open 24/7 \n 07 040 155 316",
     "text_email": "Email",
-    "email_address": "oanh.van@terabyte-labo.com",
+    "email_address": "sale@teratechcorp.com ",
   },
   "form": {
     "contact": {

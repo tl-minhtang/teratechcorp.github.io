@@ -8,7 +8,7 @@ const LANG_VI = {
   "slogan": "Chúng tôi luôn đồng hành cùng bạn",
   "service": {
     "title": "Dịch vụ",
-    "desc": "Terabyte-labo là trung tâm nghiên cứu, hợp tác và phát triển các công nghệ chuyên về Công Nghệ Web Application, microservice, ecommerce, Chatbot và ứng dụng trên điện thoại",
+    "desc": "Teratech là trung tâm nghiên cứu, hợp tác và phát triển các công nghệ chuyên về Công Nghệ Web Application, microservice, ecommerce, Chatbot và ứng dụng trên điện thoại",
     "web_app": {
       "title": "Api / Web App",
       "desc": "Sử dụng Ruby on Rails, Nodejs, Laravel,.. để xây dựng các Web application. Chúng tôi có thể đảm nhiệm Front-end, Back-end cho đến triển khai trên Server.",
@@ -54,7 +54,7 @@ const LANG_VI = {
     "text_call_us": "Gọi cho chúng tôi",
     "phone_number": "Chúng tôi làm việc 24/7 \n 07 040 155 316",
     "text_email": "Email",
-    "email_address": "oanh.van@terabyte-labo.com",
+    "email_address": "sale@teratechcorp.com ",
   },
   "form": {
     "contact": {
